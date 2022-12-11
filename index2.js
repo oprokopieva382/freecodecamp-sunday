@@ -121,3 +121,4 @@ function addFriend(userObj, friend) {
   userObj.data.friends.push(friend);
   return userObj.data.friends;
 }
+console.log(addFriend(user, "Pete"));
