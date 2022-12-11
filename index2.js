@@ -10,5 +10,5 @@ let foods = {
 function checkInventory(scannedItem) {
   return foods[scannedItem];
 }
-
 console.log(checkInventory("apples"));
+//Use the delete Keyword to Remove Object Properties
