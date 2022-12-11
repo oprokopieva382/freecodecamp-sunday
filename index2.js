@@ -57,4 +57,14 @@ console.log(foods);
 // }
 // console.log(isEveryoneHere(users));
 //Iterate Through the Keys of an Object with a for...in Statement
-const users = {};
+const users = {
+  Alan: {
+    online: false,
+  },
+  Jeff: {
+    online: true,
+  },
+  Sarah: {
+    online: false,
+  },
+};
