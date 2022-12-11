@@ -18,3 +18,4 @@ function factorialize(num) {
 }
 factorialize(5);
 //Find the Longest Word in a String
+function findLongestWordLength(str) {}
