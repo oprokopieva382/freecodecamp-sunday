@@ -117,3 +117,4 @@ let user = {
     },
   },
 };
+function addFriend(userObj, friend) {}
