@@ -22,3 +22,4 @@ let foods = {
 };
 delete foods.oranges;
 delete foods.plums;
+delete foods.strawberries;
