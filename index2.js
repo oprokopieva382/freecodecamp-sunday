@@ -117,4 +117,6 @@ let user = {
     },
   },
 };
-function addFriend(userObj, friend) {}
+function addFriend(userObj, friend) {
+  userObj.data.friends.push(friend);
+}
