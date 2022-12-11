@@ -57,25 +57,26 @@ console.log(foods);
 // }
 // console.log(isEveryoneHere(users));
 //Iterate Through the Keys of an Object with a for...in Statement
-const users = {
-  Alan: {
-    online: false,
-  },
-  Jeff: {
-    online: true,
-  },
-  Sarah: {
-    online: false,
-  },
-};
-function countOnline(usersObj) {
-  let result = 0;
-  for (let user in usersObj) {
-    if (usersObj[user].online === true) {
-      return result++;
-    }
-  }
-  return result;
-}
-console.log(countOnline(users));
+// const users = {
+//   Alan: {
+//     online: false,
+//   },
+//   Jeff: {
+//     online: true,
+//   },
+//   Sarah: {
+//     online: false,
+//   },
+// };
+// function countOnline(usersObj) {
+//   let result = 0;
+//   for (let user in usersObj) {
+//     if (usersObj[user].online === true) {
+//       return result++;
+//     }
+//   }
+//   return result;
+// }
+// console.log(countOnline(users));
 //Generate an Array of All Object Keys with Object.keys()
+let users = {};
