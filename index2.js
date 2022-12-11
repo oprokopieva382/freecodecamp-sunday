@@ -44,4 +44,13 @@ let users = {
   },
 };
 
-function isEveryoneHere(userObj) {}
+function isEveryoneHere(userObj) {
+  if (
+    userObj.hasOwnProperty("Alan") &&
+    userObj.hasOwnProperty("Jeff") &&
+    userObj.hasOwnProperty("Sarah") &&
+    userObj.hasOwnProperty("Ryan")
+  ) {
+    return true;
+  }
+}
