@@ -56,3 +56,4 @@ function isEveryoneHere(userObj) {
   return false;
 }
 console.log(isEveryoneHere(users));
+//Iterate Through the Keys of an Object with a for...in Statement
