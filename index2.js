@@ -102,4 +102,18 @@ function getArrayOfUsers(obj) {
 }
 console.log(getArrayOfUsers(users));
 //Modify an Array Stored in an Object
-let user = {};
+let user = {
+  name: "Kenneth",
+  age: 28,
+  data: {
+    username: "kennethCodesAllDay",
+    joinDate: "March 26, 2016",
+    organization: "freeCodeCamp",
+    friends: ["Sam", "Kira", "Tomo"],
+    location: {
+      city: "San Francisco",
+      state: "CA",
+      country: "USA",
+    },
+  },
+};
