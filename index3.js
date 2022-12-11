@@ -19,8 +19,6 @@
 // factorialize(5);
 //Find the Longest Word in a String
 function findLongestWordLength(str) {
-  return str
-    .split(" ")
-    .reduce((longer, word) => Math.max(longer, word.length), 0);
+  return Math.max(...str.split(" ").map((word) => word.length));
 }
 findLongestWordLength("The quick brown fox jumped over the lazy dog");
