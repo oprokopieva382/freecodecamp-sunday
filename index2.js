@@ -97,3 +97,4 @@ let users = {
     online: true,
   },
 };
+function getArrayOfUsers(obj) {}
