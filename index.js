@@ -21,3 +21,4 @@ let userActivity = {
     online: 42,
   },
 };
+userActivity.data.online = 45;
