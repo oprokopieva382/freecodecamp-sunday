@@ -78,3 +78,4 @@ function countOnline(usersObj) {
   return result;
 }
 console.log(countOnline(users));
+//Generate an Array of All Object Keys with Object.keys()
