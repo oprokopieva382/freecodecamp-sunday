@@ -7,3 +7,4 @@ let foods = {
   grapes: 35,
   strawberries: 27,
 };
+function checkInventory(scannedItem) {}
