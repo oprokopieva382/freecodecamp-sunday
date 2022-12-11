@@ -68,4 +68,6 @@ const users = {
     online: false,
   },
 };
-function countOnline(usersObj) {}
+function countOnline(usersObj) {
+  let result = 0;
+}
