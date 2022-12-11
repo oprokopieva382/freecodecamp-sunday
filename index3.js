@@ -4,3 +4,4 @@ function convertCtoF(celsius) {
   return fahrenheit;
 }
 convertCtoF(30);
+//Reverse a String
