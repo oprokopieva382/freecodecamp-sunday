@@ -97,4 +97,6 @@ let users = {
     online: true,
   },
 };
-function getArrayOfUsers(obj) {}
+function getArrayOfUsers(obj) {
+  return Object.keys(obj);
+}
