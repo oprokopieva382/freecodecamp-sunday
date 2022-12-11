@@ -5,3 +5,4 @@ function convertCtoF(celsius) {
 }
 convertCtoF(30);
 //Reverse a String
+function reverseString(str) {}
