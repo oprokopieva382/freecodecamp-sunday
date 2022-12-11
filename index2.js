@@ -43,3 +43,5 @@ let users = {
     online: true,
   },
 };
+
+function isEveryoneHere(userObj) {}
