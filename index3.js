@@ -10,3 +10,4 @@ function reverseString(str) {
 }
 reverseString("hello");
 //Factorialize a Number
+function factorialize(num) {}
