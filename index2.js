@@ -10,3 +10,5 @@ let foods = {
 function checkInventory(scannedItem) {
   return foods[scannedItem];
 }
+
+console.log(checkInventory("apples"));
