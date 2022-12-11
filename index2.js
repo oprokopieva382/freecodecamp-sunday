@@ -55,3 +55,4 @@ function isEveryoneHere(userObj) {
   }
   return false;
 }
+console.log(isEveryoneHere(users));
