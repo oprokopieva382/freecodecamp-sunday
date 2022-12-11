@@ -100,3 +100,4 @@ let users = {
 function getArrayOfUsers(obj) {
   return Object.keys(obj);
 }
+console.log(getArrayOfUsers(users));
