@@ -77,3 +77,4 @@ function countOnline(usersObj) {
   }
   return result;
 }
+console.log(countOnline(users));
