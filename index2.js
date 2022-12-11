@@ -53,4 +53,5 @@ function isEveryoneHere(userObj) {
   ) {
     return true;
   }
+  return false;
 }
