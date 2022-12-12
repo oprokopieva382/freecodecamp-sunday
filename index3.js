@@ -69,3 +69,4 @@ function booWho(bool) {
   return typeof bool === "boolean";
 }
 booWho(null);
+//Title Case a Sentence
