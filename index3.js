@@ -105,3 +105,4 @@ function mutation(arr) {
   }
   return true;
 }
+mutation(["hello", "hey"]);
