@@ -23,3 +23,4 @@ function findLongestWordLength(str) {
 }
 findLongestWordLength("The quick brown fox jumped over the lazy dog");
 //Return Largest Numbers in Arrays
+function largestOfFour(arr) {}
