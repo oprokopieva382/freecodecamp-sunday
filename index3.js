@@ -78,3 +78,4 @@ function titleCase(str) {
     .join(" ");
 }
 titleCase("I'm a little tea pot");
+//Slice and Splice
