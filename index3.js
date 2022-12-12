@@ -44,4 +44,7 @@ confirmEnding("Bastian", "n");
 //Repeat a String Repeat a String
 function repeatStringNumTimes(str, num) {
   let result = "";
+  for (let i = 0; i < num; i++) {
+    result += num;
+  }
 }
