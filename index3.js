@@ -86,3 +86,4 @@ function frankenSplice(arr1, arr2, n) {
 function bouncer(arr) {
   return arr.filter(Boolean);
 }
+bouncer([7, "ate", "", false, 9]);
