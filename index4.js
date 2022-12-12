@@ -17,3 +17,4 @@ let dog = {
 };
 
 dog.sayLegs();
+//Define a Constructor Function
