@@ -77,3 +77,4 @@ function titleCase(str) {
     .map((val) => val.replace(val.charAt(0), val.charAt(0).toUpperCase()))
     .join(" ");
 }
+titleCase("I'm a little tea pot");
