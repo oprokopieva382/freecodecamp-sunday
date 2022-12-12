@@ -88,4 +88,6 @@ function bouncer(arr) {
 }
 bouncer([7, "ate", "", false, 9]);
 //Where do I Belong
-function getIndexToIns(arr, num) {}
+function getIndexToIns(arr, num) {
+  arr.sort((a, b) => a - b);
+}
