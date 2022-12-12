@@ -97,3 +97,4 @@ function getIndexToIns(arr, num) {
 }
 getIndexToIns([40, 60], 50);
 //Mutations
+function mutation(arr) {}
