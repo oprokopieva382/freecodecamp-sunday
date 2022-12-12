@@ -56,3 +56,4 @@ function Dog(name) {
 }
 Dog.prototype.numLegs = 4;
 let beagle = new Dog("Snoopy");
+//Iterate Over All Properties
