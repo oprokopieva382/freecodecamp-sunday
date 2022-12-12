@@ -1,2 +1,5 @@
 //Create a Basic JavaScript Object
-let dog = {};
+let dog = {
+  name: "Aflac",
+  numLegs: 2,
+};
