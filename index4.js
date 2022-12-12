@@ -19,9 +19,10 @@ let dog = {
 dog.sayLegs();
 //Define a Constructor Function
 //Use a Constructor to Create Objects
-function Dog() {
-  this.name = "Albert";
-  this.color = "blue";
-  this.numLegs = 2;
-}
-let hound = new Dog();
+// function Dog() {
+//   this.name = "Albert";
+//   this.color = "blue";
+//   this.numLegs = 2;
+// }
+// let hound = new Dog();
+//Extend Constructors to Receive Arguments
