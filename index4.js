@@ -50,3 +50,4 @@ for (let property in canary) {
     ownProps.push(property);
   }
 }
+//Use Prototype Properties to Reduce Duplicate Code
