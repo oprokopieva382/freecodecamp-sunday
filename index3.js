@@ -42,4 +42,6 @@ function confirmEnding(str, target) {
 }
 confirmEnding("Bastian", "n");
 //Repeat a String Repeat a String
-function repeatStringNumTimes(str, num) {}
+function repeatStringNumTimes(str, num) {
+  let result = "";
+}
