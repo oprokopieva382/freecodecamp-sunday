@@ -37,3 +37,4 @@ largestOfFour([
   [1000, 1001, 857, 1],
 ]);
 //Confirm the Ending
+function confirmEnding(str, target) {}
