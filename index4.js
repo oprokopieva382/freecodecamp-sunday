@@ -3,3 +3,4 @@ let dog = {
   name: "Aflac",
   numLegs: 2,
 };
+//Use Dot Notation to Access the Properties of an Object
