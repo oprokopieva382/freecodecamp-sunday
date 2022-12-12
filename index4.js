@@ -43,17 +43,31 @@ function Bird(name) {
   this.name = name;
   this.numLegs = 2;
 }
-let canary = new Bird("Tweety");
-let ownProps = [];
-for (let property in canary) {
-  if (canary.hasOwnProperty(property)) {
-    ownProps.push(property);
-  }
-}
+// let canary = new Bird("Tweety");
+// let ownProps = [];
+// for (let property in canary) {
+//   if (canary.hasOwnProperty(property)) {
+//     ownProps.push(property);
+//   }
+// }
 //Use Prototype Properties to Reduce Duplicate Code
+// function Dog(name) {
+//   this.name = name;
+// }
+// Dog.prototype.numLegs = 4;
+// let beagle = new Dog("Snoopy");
+//Iterate Over All Properties
 function Dog(name) {
   this.name = name;
 }
 Dog.prototype.numLegs = 4;
 let beagle = new Dog("Snoopy");
-//Iterate Over All Properties
+let ownProps = [];
+let prototypeProps = [];
+for (let property in beagle) {
+  if (Dog.hasOwnProperty(property)) {
+    ownProps.push(property);
+  } else {
+    prototypeProps.push(property);
+  }
+}
