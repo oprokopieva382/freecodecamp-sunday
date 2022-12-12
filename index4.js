@@ -24,3 +24,4 @@ function Dog() {
   this.color = "blue";
   this.numLegs = 2;
 }
+let hound = new Dog();
