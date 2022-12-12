@@ -51,4 +51,6 @@ function repeatStringNumTimes(str, num) {
 }
 repeatStringNumTimes("abc", 3);
 //Truncate a String
-function truncateString(str, num) {}
+function truncateString(str, num) {
+  return str.length > num ? str.slice(0, num) + "..." : str;
+}
