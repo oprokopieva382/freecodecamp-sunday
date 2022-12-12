@@ -107,4 +107,10 @@ function mutation(arr) {
 }
 mutation(["hello", "hey"]);
 //Chunky Monkey
-function chunkArrayInGroups(arr, size) {}
+function chunkArrayInGroups(arr, size) {
+  const newArr = [];
+  while (arr.length > 0) {
+    newArr.push(arr.splice(0, size));
+  }
+  return newArr;
+}
