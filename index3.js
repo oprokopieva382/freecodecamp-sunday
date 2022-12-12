@@ -70,4 +70,10 @@ function booWho(bool) {
 }
 booWho(null);
 //Title Case a Sentence
-function titleCase(str) {}
+function titleCase(str) {
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((val) => val.replace(val.charAt(0), val.charAt(0).toUpperCase()))
+    .join(" ");
+}
