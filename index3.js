@@ -70,3 +70,4 @@ function booWho(bool) {
 }
 booWho(null);
 //Title Case a Sentence
+function titleCase(str) {}
