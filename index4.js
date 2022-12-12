@@ -32,3 +32,4 @@ function Dog(name, color) {
   this.numLegs = 4;
 }
 let terrier = new Dog("Bob", "gray");
+//Verify an Object's Constructor with instanceof
