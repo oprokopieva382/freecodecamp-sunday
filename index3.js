@@ -107,3 +107,4 @@ function mutation(arr) {
 }
 mutation(["hello", "hey"]);
 //Chunky Monkey
+function chunkArrayInGroups(arr, size) {}
